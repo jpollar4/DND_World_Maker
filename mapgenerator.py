@@ -47,7 +47,7 @@ if __name__ == '__main__':
 					else:
 						worldmaparray[pointerx + (2-x)][pointery+ (2-y)]['type'] = terraintype;
 
-			if random.randint(0,XSIZE*5) == 50:
+			if random.randint(0,XSIZE*4) == 50:
 				break
 
 
